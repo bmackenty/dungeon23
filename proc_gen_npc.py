@@ -1,4 +1,7 @@
 # procedural generation of npc
+# these characteristics are used from Generating Knowledge Graphs using GPT-J for Automated Story Generation Purposes
+# by Samihan Dani
+# https://smartech.gatech.edu/bitstream/handle/1853/66753/DANI-UNDERGRADUATERESEARCHOPTIONTHESIS-2022.pdf?isAllowed=y&sequence=1
 
 # LIVE: Where does the {} live?,
 # KNOWN: What is the {} known for?,

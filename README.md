@@ -17,5 +17,4 @@ Roughly based on the alternate schedule by Spooky, this is my Dungeon23/World23 
 • Saturday — A rumour about something from the past week 
 
 
-
 https://twitter.com/kareeshvalendar

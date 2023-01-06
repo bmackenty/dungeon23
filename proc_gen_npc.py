@@ -50,7 +50,7 @@ select_unique = random.choice(fantasy_unique)
 fantasy_describe_1 = ["tall", "not very tall", "especially not tall", "really, very not-at-all tall"]
 select_describe_1 = random.choice(fantasy_describe_1)
 
-fantasy_gender= ["male","female","unclear"]
+fantasy_gender= ["male","female"]
 selected_gender = random.choice(fantasy_gender)
 
 fantasy_body_type = ["slender", "athletic", "stocky", "muscular", "overweight", "obese", "skinny", "thin", "fat", "chubby", "curvy", "petite", "large", "broad", "bony", "gaunt", "lean", "lanky", "lithe", "plump", "portly", "scrawny", "squat", "stout", "stringy", "thin", "willowy", "wiry"]
@@ -68,7 +68,7 @@ select_carrying = random.choice(fantasy_carrying)
 fantasy_age = ["young", "middle-aged", "old", "ancient"]
 select_age = random.choice(fantasy_age)
 
-fantasy_doing = ["sitting at a bar","quietly and peacfully watching", "haggling over some wares", "arguing with a friend", "trying to convince a friend", "eating very quickly"]
+fantasy_doing = ["sitting at a bar","quietly and peacfully watching people and creatures in the area", "haggling over some wares", "arguing with a friend", "trying to convince a friend", "eating very quickly"]
 select_doing = random.choice(fantasy_doing)
 
 

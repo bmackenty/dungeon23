@@ -29,8 +29,12 @@ selected_settlement_type = random.choice(settlement_type)
 settlement_prefix = ["peaceful", "warlike", "tranquil", "sundered", "raging", "destructive", "terrifying", "doomed", "despairing", "glorious", "victorious", "dark", "light", "discovering"]
 selected_settlement_prefix = random.choice(settlement_prefix)
 
+settlement_interesting_building = ["a large spice market every fortnight", "an ancient and abandoned temple to a long-lost diety", "a large library protected by a powerful wizard guild", "a large theatre, with unusually specific acoustics", "a large and beautiful park with exotic and tame birds roaming around", "a large pub - one of the oldest in the area",  "a spa with hot baths"]
+selected_settlement_interesting_building = random.choice(settlement_interesting_building)
+
 settlement_description_1 = "The settlement is a " + selected_settlement_size + " " + selected_settlement_type + " of " + selected_settlement_culture + " origin. It was first founded during the age of " + selected_settlement_age
-settlement_description_2 = " and is located in a " + selected_settlement_terrain + " region. The settlement is " + selected_settlement_prefix + " and is known for a large " + selected_settlement_geographical_features + " to the " + selected_cardinal_directions
+settlement_description_2 = "and is located in a " + selected_settlement_terrain + " region. The settlement is " + selected_settlement_prefix + " and is known for a large " + selected_settlement_geographical_features + " to the " + selected_cardinal_directions + "."
+settlement_description_3 = "The settlement is also known for " + selected_settlement_interesting_building + "."
 
 
-print(settlement_description_1, settlement_description_2)
+print(settlement_description_1, settlement_description_2, settlement_description_3)

@@ -66,6 +66,16 @@ selected_economic_characteristics = random.choice(economic_characteristics)
 military_characteristics = ["martial", "decentralized", "regimented", "democratic", "monarchic", "oligarchic"]
 selected_military_characteristics = random.choice(military_characteristics)
 
+colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet", "red", "orange", "yellow", "green", "blue", "indigo", "violet"]
+selected_colors = random.choice(colors)
+
+pattern = ["striped", "plaid", "polka-dotted", "striped", "plaid", "polka-dotted"]
+selected_pattern = random.choice(pattern)
+
+fabric = ["cotton", "silk", "wool", "cotton", "silk", "wool"]
+selected_fabric = random.choice(fabric)
+
+
 cultural_event_1 = "Little known to those outside this culture is a decidely uncommon " + selected_category_culture + " tradition. "
 cultural_event_2 = "Participants in this tradition " + selected_frequency_culture + " invoke strong " + selected_language_characteristics + " accent every other day!"
 print(cultural_event_1)
